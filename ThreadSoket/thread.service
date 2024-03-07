@@ -1,0 +1,8 @@
+[Unit]
+Description=Demo C++ service
+
+[Service]
+ExecStart=/home/ps/ThreadSoket/threadserver
+
+[Install]
+WantedBy=multi-user.target
